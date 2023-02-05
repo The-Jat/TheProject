@@ -75,6 +75,11 @@ class PostForm extends FormAbstract
                 'label_attr'    => ['class' => 'control-label'],
                 'default_value' => false,
             ])
+            ->add('is_course_post', 'onOff', [
+                'label'         => trans('core/base::forms.is_course_post'),
+                'label_attr'    => ['class' => 'control-label'],
+                'default_value' => false,
+            ])
             ->add('content', 'editor', [
                 'label'      => trans('core/base::forms.content'),
                 'label_attr' => ['class' => 'control-label'],

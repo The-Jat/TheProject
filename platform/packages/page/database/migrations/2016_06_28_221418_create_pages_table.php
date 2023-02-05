@@ -19,6 +19,7 @@ return new class () extends Migration {
             $table->string('image', 255)->nullable();
             $table->string('template', 60)->nullable();
             $table->tinyInteger('is_featured')->default(0);
+            $table->tinyInteger('is_courser_post')->default(0);
             $table->string('description', 400)->nullable();
             $table->string('status', 60)->default('published');
             $table->timestamps();

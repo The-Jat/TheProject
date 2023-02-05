@@ -13,6 +13,7 @@ return [
         'tags_placeholder'        => 'Tags',
         'content'                 => 'Content',
         'is_featured'             => 'Is featured?',
+        'is_course_post'             => 'Is course post?',
         'note'                    => 'Note content',
         'format_type'             => 'Format',
     ],

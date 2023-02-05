@@ -23,6 +23,7 @@ return new class () extends Migration {
             $table->string('icon', 60)->nullable();
             $table->tinyInteger('order')->default(0);
             $table->tinyInteger('is_featured')->default(0);
+            $table->tinyInteger('is_course_post')->default(0);
             $table->tinyInteger('is_default')->unsigned()->default(0);
             $table->timestamps();
         });
@@ -46,6 +47,7 @@ return new class () extends Migration {
             $table->integer('author_id');
             $table->string('author_type', 255)->default(addslashes(User::class));
             $table->tinyInteger('is_featured')->unsigned()->default(0);
+            $table->tinyInteger('is_course_post')->unsigned()->default(0);
             $table->string('image', 255)->nullable();
             $table->integer('views')->unsigned()->default(0);
             $table->string('format_type', 30)->nullable();

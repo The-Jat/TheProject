@@ -66,6 +66,7 @@ class Post extends BaseModel
         'content',
         'image',
         'is_featured',
+        'is_course_post',
         'format_type',
         'status',
         'author_id',
