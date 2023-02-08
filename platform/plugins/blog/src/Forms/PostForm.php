@@ -113,6 +113,15 @@ class PostForm extends FormAbstract
                     'data-url'    => route('tags.all'),
                 ],
             ])
+            ->add('courses', 'tags', [
+                'label'      => trans('plugins/blog::posts.form.tags'),
+                'label_attr' => ['class' => 'control-label'],
+                'value'      => $tags,
+                'attr'       => [
+                    'placeholder' => trans('plugins/blog::base.write_some_tags'),
+                    'data-url'    => route('tags.all'),
+                ],
+            ])
             ->setBreakFieldPoint('status');
 
         $postFormats = get_post_formats(true);

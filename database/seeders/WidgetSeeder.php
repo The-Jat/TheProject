@@ -116,6 +116,16 @@ class WidgetSeeder extends BaseSeeder
                     ],
                 ],
                 [
+                    'widget_id'  => 'CoursesListWidget',
+                    'sidebar_id' => 'footer_sidebar_3',
+                    'position'   => 1,
+                    'data'       => [
+                        'id'                => 'CoursesListWidget',
+                        'name'              => 'CoursesList',
+                        'name_custom_class' => 'color-white',
+                    ],
+                ],
+                [
                     'widget_id'  => 'NewsletterWidget',
                     'sidebar_id' => 'footer_sidebar_4',
                     'position'   => 1,
