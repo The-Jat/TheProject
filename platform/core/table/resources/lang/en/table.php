@@ -2,6 +2,7 @@
 
 return [
     'operations'               => 'Operations',
+    'expost'    => 'Export',
     'loading_data'             => 'Loading data from server',
     'display'                  => 'Display',
     'all'                      => 'All',

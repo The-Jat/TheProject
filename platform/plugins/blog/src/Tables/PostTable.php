@@ -108,6 +108,9 @@ class PostTable extends TableAbstract
             })
             ->addColumn('operations', function ($item) {
                 return $this->getOperations('posts.edit', 'posts.destroy', $item);
+            })
+            ->addColumn('export', function ($item) {
+                return $this->getOperations('posts.edit', 'posts.destroy', $item);
             });
 
         return $this->toJson($data);

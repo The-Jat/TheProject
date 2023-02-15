@@ -67,6 +67,9 @@ class MenuTable extends TableAbstract
             })
             ->addColumn('operations', function ($item) {
                 return $this->getOperations('menus.edit', 'menus.destroy', $item);
+            })
+            ->addColumn('export', function ($item) {
+                return $this->getOperations('menus.edit', 'menus.destroy', $item);
             });
 
         return $this->toJson($data);

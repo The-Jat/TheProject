@@ -81,6 +81,9 @@ class PageTable extends TableAbstract
             })
             ->addColumn('operations', function ($item) {
                 return $this->getOperations('pages.edit', 'pages.destroy', $item);
+            })
+            ->addColumn('export', function ($item) {
+                return $this->getOperations('pages.edit', 'pages.destroy', $item);
             });
 
         return $this->toJson($data);

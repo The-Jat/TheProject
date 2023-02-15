@@ -264,7 +264,7 @@ abstract class TableAbstract extends DataTable
         if ($this->request->has('filter_table_id')) {
             $this->bStateSave = false;
         }
-
+        //debug_print_backtrace();
         return $this->builder()
             ->columns($this->getColumns())
             ->ajax(['url' => $this->getAjaxUrl(), 'method' => 'POST'])
@@ -345,6 +345,11 @@ abstract class TableAbstract extends DataTable
             $columns = apply_filters(BASE_FILTER_TABLE_HEADINGS, $columns, $this->repository->getModel());
         }
 
+        if ($this->hasOperations) {
+            $columns = array_merge($columns, $this->getOperationsHeading());
+        }
+
+        //dd($columns);
         if ($this->hasOperations) {
             $columns = array_merge($columns, $this->getOperationsHeading());
         }

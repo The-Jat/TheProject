@@ -68,6 +68,9 @@ class PostCollectionTable extends TableAbstract
             })
             ->addColumn('operations', function ($item) {
                 return $this->getOperations('post-collection.edit', 'post-collection.destroy', $item);
+            })
+            ->addColumn('export', function ($item) {
+                return $this->getOperations('post-collection.edit', 'post-collection.destroy', $item);
             });
 
         return $this->toJson($data);

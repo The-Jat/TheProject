@@ -26,6 +26,7 @@
                 <th>{{ trans('plugins/backup::backup.size') }}</th>
                 <th>{{ trans('core/base::tables.created_at') }}</th>
                 <th>{{ trans('core/table::table.operations') }}</th>
+                <th>{{ trans('core/table::table.operations') }}</th>
             </tr>
         </thead>
         <tbody>

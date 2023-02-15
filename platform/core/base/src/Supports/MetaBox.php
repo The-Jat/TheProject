@@ -145,6 +145,7 @@ class MetaBox
             }
         }
 
+        //dd($data);
         echo view('core/base::elements.meta-box', compact('data', 'context'))->render();
 
         return $index;
