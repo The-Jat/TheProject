@@ -976,7 +976,7 @@ class RvMedia
     public function getConfig($key = null, $default = null)
     {
         $configs = config('core.media.media');
-
+        //ddd($configs);
         if (!$key) {
             return $configs;
         }

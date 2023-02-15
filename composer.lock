@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd9cc423b3c33e4e142d38ed4fb9b805",
+    "content-hash": "5dbad8d546b159d0c6122266e51291f7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -285,7 +285,7 @@
         },
         {
             "name": "botble/api",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/api",
@@ -314,25 +314,25 @@
         },
         {
             "name": "botble/assets",
-            "version": "1.0.25",
+            "version": "1.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/botble/laravel-assets.git",
-                "reference": "137619fd8c930046be290ece7d6fc40384d3664e"
+                "reference": "0e3748be2d8ce4182ded92d0b12e8fe670cbf18d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/botble/laravel-assets/zipball/137619fd8c930046be290ece7d6fc40384d3664e",
-                "reference": "137619fd8c930046be290ece7d6fc40384d3664e",
+                "url": "https://api.github.com/repos/botble/laravel-assets/zipball/0e3748be2d8ce4182ded92d0b12e8fe670cbf18d",
+                "reference": "0e3748be2d8ce4182ded92d0b12e8fe670cbf18d",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "^5.6|^6|^7|^8|^9",
+                "laravel/framework": "^5.6|^6|^7|^8|^9|^10",
                 "php": "^7.1.3|^8.0|^8.1"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^6.1|^7.0|^8.0|^9.0"
+                "phpunit/phpunit": "^6.1|^7.0|^8.0|^9.0|^10.0"
             },
             "type": "library",
             "extra": {
@@ -370,13 +370,13 @@
             ],
             "support": {
                 "issues": "https://github.com/botble/laravel-assets/issues",
-                "source": "https://github.com/botble/laravel-assets/tree/1.0.25"
+                "source": "https://github.com/botble/laravel-assets/tree/1.0.26"
             },
-            "time": "2022-12-20T10:23:32+00:00"
+            "time": "2023-02-15T03:41:23+00:00"
         },
         {
             "name": "botble/menu",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/menu",
@@ -409,7 +409,7 @@
         },
         {
             "name": "botble/optimize",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/optimize",
@@ -438,7 +438,7 @@
         },
         {
             "name": "botble/page",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/page",
@@ -468,7 +468,7 @@
         },
         {
             "name": "botble/platform",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/core",
@@ -556,7 +556,7 @@
         },
         {
             "name": "botble/plugin-management",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/plugin-management",
@@ -585,7 +585,7 @@
         },
         {
             "name": "botble/revision",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/revision",
@@ -614,7 +614,7 @@
         },
         {
             "name": "botble/seo-helper",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/seo-helper",
@@ -647,7 +647,7 @@
         },
         {
             "name": "botble/shortcode",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/shortcode",
@@ -676,7 +676,7 @@
         },
         {
             "name": "botble/sitemap",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/sitemap",
@@ -705,7 +705,7 @@
         },
         {
             "name": "botble/slug",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/slug",
@@ -737,7 +737,7 @@
         },
         {
             "name": "botble/theme",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/theme",
@@ -778,7 +778,7 @@
         },
         {
             "name": "botble/widget",
-            "version": "dev-courses",
+            "version": "dev-temp",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/widget",
@@ -3234,22 +3234,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kristijanhusak/laravel-form-builder.git",
-                "reference": "a1388bf54df3c3c9d263816dfd1a70194044d693"
+                "reference": "f5ccfc66277283dd5f714328e8e553b8ff7e2a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kristijanhusak/laravel-form-builder/zipball/a1388bf54df3c3c9d263816dfd1a70194044d693",
-                "reference": "a1388bf54df3c3c9d263816dfd1a70194044d693",
+                "url": "https://api.github.com/repos/kristijanhusak/laravel-form-builder/zipball/f5ccfc66277283dd5f714328e8e553b8ff7e2a43",
+                "reference": "f5ccfc66277283dd5f714328e8e553b8ff7e2a43",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "^5.6@dev|^6|^7|^8|^9",
-                "illuminate/validation": "^5.6@dev|^6|^7|^8|^9",
-                "laravelcollective/html": "^5.6|^6|^7|^8|^9",
-                "php": ">=7.1"
+                "illuminate/database": "^6 || ^7 || ^8 || ^9 || ^10",
+                "illuminate/validation": "^6 || ^7 || ^8 || ^9 || ^10",
+                "laravelcollective/html": "^6",
+                "php": ">=7.4"
             },
             "require-dev": {
-                "orchestra/testbench": "^6.13"
+                "orchestra/testbench": "^6.13 || ^7.0 || ^8.0"
             },
             "default-branch": true,
             "type": "library",
@@ -3298,7 +3298,7 @@
                 "issues": "https://github.com/kristijanhusak/laravel-form-builder/issues",
                 "source": "https://github.com/kristijanhusak/laravel-form-builder/tree/master"
             },
-            "time": "2023-01-25T17:33:04+00:00"
+            "time": "2023-02-15T14:55:37+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4051,16 +4051,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.8",
+            "version": "2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47"
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c493585c130544c4e91d2e0e131e6d35cb0cbc47",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
                 "shasum": ""
             },
             "require": {
@@ -4153,7 +4153,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-10T16:02:17+00:00"
+            "time": "2023-02-15T14:07:24+00:00"
         },
         {
             "name": "league/config",
@@ -4451,6 +4451,134 @@
                 }
             ],
             "time": "2023-01-17T14:15:08+00:00"
+        },
+        {
+            "name": "league/flysystem-ftp",
+            "version": "3.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-ftp.git",
+                "reference": "475d526de342b4a166e64c11ccabbda027c9e716"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-ftp/zipball/475d526de342b4a166e64c11ccabbda027c9e716",
+                "reference": "475d526de342b4a166e64c11ccabbda027c9e716",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ftp": "*",
+                "league/flysystem": "^3.0.0",
+                "league/mime-type-detection": "^1.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Ftp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                }
+            ],
+            "description": "FTP filesystem adapter for Flysystem.",
+            "keywords": [
+                "Flysystem",
+                "file",
+                "files",
+                "filesystem",
+                "ftp",
+                "ftpd"
+            ],
+            "support": {
+                "source": "https://github.com/thephpleague/flysystem-ftp/tree/3.10.3"
+            },
+            "funding": [
+                {
+                    "url": "https://ecologi.com/frankdejonge",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/frankdejonge",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-26T18:15:09+00:00"
+        },
+        {
+            "name": "league/flysystem-sftp-v3",
+            "version": "3.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-sftp-v3.git",
+                "reference": "0a52a54421a7e551f0c616e2db321c2735424c9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp-v3/zipball/0a52a54421a7e551f0c616e2db321c2735424c9f",
+                "reference": "0a52a54421a7e551f0c616e2db321c2735424c9f",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "^3.0.14",
+                "league/mime-type-detection": "^1.0.0",
+                "php": "^8.0.2",
+                "phpseclib/phpseclib": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\PhpseclibV3\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                }
+            ],
+            "description": "SFTP filesystem adapter for Flysystem.",
+            "keywords": [
+                "Flysystem",
+                "file",
+                "files",
+                "filesystem",
+                "sftp"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/flysystem-sftp-v3/issues",
+                "source": "https://github.com/thephpleague/flysystem-sftp-v3/tree/3.10.3"
+            },
+            "funding": [
+                {
+                    "url": "https://ecologi.com/frankdejonge",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/frankdejonge",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-26T18:15:09+00:00"
         },
         {
             "name": "league/mime-type-detection",
